@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #26465d;
+}
+
+.main-img {
+  background-image: url("images/islamabad.jpeg");
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.activities {
+  text-align: center;
+  background-color: #f1faee;
+  padding: 10px;
+}
+
+.activities-card {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.activity {
+  width: 190px;
+}
+
+.activity-title {
+  font-weight: bold;
+}
+
+.activity-img {
+  width: 120px;
+  border-radius: 50%;
+}
+
+#main-title {
+  background-color: #447b9d;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  margin: 0;
+}
+
+#main-desc {
+  background-color: #273a5b;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px;
+}
+
+.footer-card {
+  display: flex;
+  justify-content: space-evenly;
+  width: 500px;
+  background-color: #a8dadb;
+  padding: 15px;
+  border-radius: 8px;
+  border-bottom: 5px solid #447b9e;
+  color: #26465d;
+}
+
+.img-saqib {
+  width: 180px;
+  border-radius: 8px;
+}
+
+.footer-card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  width: 300px;
+  margin: 0px 30px;
+}
